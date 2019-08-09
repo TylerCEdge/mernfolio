@@ -4,7 +4,7 @@ import Jumbotron from './components/jumbotron'
 import Card from './components/card'
 import Projects from './components/projects'
 import Education from './components/education'
-import './App.css';
+// import './App.css';
 
 function App() {
   return (

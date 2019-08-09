@@ -12,6 +12,7 @@ export default class card extends Component {
       cards
     };
   }
+
   render() {
     return (
       <div>
@@ -25,6 +26,9 @@ export default class card extends Component {
             id={card.id}
             key={card.id}
             image={card.image}
+            name={card.name}
+            url={card.url}
+            summary={card.summary}
           />
           ))}
           </Wrapper>

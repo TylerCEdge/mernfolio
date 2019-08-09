@@ -4,6 +4,7 @@ import Jumbotron from './components/jumbotron'
 import About from './components/about'
 import Projects from './components/projects'
 import Education from './components/education'
+import Contact from './components/contact'
 
 export default class App extends Component {
   
@@ -24,6 +25,9 @@ export default class App extends Component {
         </div>
         <div className="container">
           <Education />
+        </div>
+        <div className="container">
+          <Contact />
         </div>
       </div>
     );

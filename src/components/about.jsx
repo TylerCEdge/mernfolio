@@ -54,7 +54,7 @@ export default class about extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="card-footer col-sm-12">
+            <div className="card-footer mx-auto">
             <a href="https://github.com/TylerCEdge" target="blank"><img src={require("../images/github.png")}
                             alt="GitHub" className="src contact" /></a>
             <a href="https://stackexchange.com/users/15047538/tyler-edge" target="blank"><img src={require("../images/overflow.png")}

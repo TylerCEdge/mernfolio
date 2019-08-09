@@ -51,10 +51,14 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .proj {
-    height: 300px;
-    width: 250px;
+.proj {
+    max-width: 350px;
     margin: 3px;
     overflow: hidden;
     border: 1px solid gray;
   }
+
+#tester {
+    max-width: 100%;
+    max-height: auto;
+}

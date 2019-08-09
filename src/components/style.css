@@ -1,0 +1,46 @@
+.container .title {
+    align-content: center;
+}
+
+.jumbotron {
+    border: 1px solid black;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightcyan;
+}
+
+.title {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.profile {
+    max-width: 20%;
+    max-height: 20%;
+    margin-top: 10px;
+    border-radius: 40%;
+}
+
+.contact {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

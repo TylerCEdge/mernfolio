@@ -52,22 +52,22 @@ export default class navbar extends Component {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" target="blank" href="https://pokemon-memory-app.herokuapp.com/">
                     Pokemon Memory Game
                   </a>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" target="blank" href="https://gameonappv1.herokuapp.com/">
                     Game On
                   </a>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" target="blank" href="https://scrapedanews.herokuapp.com/">
                     Hacker News Scraper
                   </a>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" target="blank" href="https://tylercedge.github.io/TriviaGame/">
                     Space Trivia
                   </a>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" target="blank" href="https://friend-o-finder.herokuapp.com/">
                     Find A Friend App
                   </a>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" target="blank" href="https://eatdaburgerzzz.herokuapp.com/">
                     Tasty Burger
                   </a>
                 </div>

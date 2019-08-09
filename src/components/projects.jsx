@@ -1,7 +1,17 @@
 import React, { Component } from "react";
+import Wrapper from './wrapper'
+import Card from './card'
+import cards from '../cards.json'
 import "./style.css";
 
 export default class card extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      cards
+    };
+  }
   render() {
     return (
       <div>
@@ -9,12 +19,15 @@ export default class card extends Component {
           <div className="row">
             <div className="card-body col-sm-12">
               <h4 className="card-title">Projects</h4>
-              <p>Pokemon Memory Game</p>
-              <p>Game On</p>
-              <p>Hacker News Scraper</p>
-              <p>Space Trivia</p>
-              <p>Find A Friend App</p>
-              <p>Tasty Burger</p>
+              <Wrapper>
+            {this.state.cards.map(card => (
+          <Card
+            id={card.id}
+            key={card.id}
+            image={card.image}
+          />
+          ))}
+          </Wrapper>
             </div>
           </div>
         </div>

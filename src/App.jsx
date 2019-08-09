@@ -8,7 +8,6 @@ import Contact from './components/contact'
 import Carousel from './components/carousel'
 
 export default class App extends Component {
-  
 
   render() {
     return (

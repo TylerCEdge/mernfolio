@@ -56,11 +56,11 @@ export default class about extends Component {
           <div className="row">
             <div className="card-footer col-sm-12">
             <a href="https://github.com/TylerCEdge" target="blank"><img src={require("../images/github.png")}
-                            alt="GitHub" class="src contact" /></a>
+                            alt="GitHub" className="src contact" /></a>
             <a href="https://stackexchange.com/users/15047538/tyler-edge" target="blank"><img src={require("../images/overflow.png")}
                             alt="Stack Overflow" class="src contact" /></a>
             <a href="https://www.linkedin.com/in/tyler-edge-29530b178/" target="blank"><img src={require("../images/linkedin.png")}
-                            alt="LinkedIn" class="src contact" /></a>
+                            alt="LinkedIn" className="src contact" /></a>
             </div>
           </div>
         </div>

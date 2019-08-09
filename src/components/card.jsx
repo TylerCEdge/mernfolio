@@ -7,7 +7,7 @@ const Card = props => (
 		<a href={props.url} target="blank">
 		<img id="tester" alt={props.image.replace(".png", "")} src={require("../images/" + props.image)} href={props.url} />
 		</a>
-		<p>{props.summary}</p>
+		<p id="summary">{props.summary}</p>
 	</div>
 )
 

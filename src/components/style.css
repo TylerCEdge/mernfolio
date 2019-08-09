@@ -62,3 +62,15 @@
     max-width: 100%;
     max-height: auto;
 }
+
+#summary {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.container:last-of-type {
+    margin-bottom: 30px;
+}

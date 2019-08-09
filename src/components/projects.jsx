@@ -16,7 +16,7 @@ export default class card extends Component {
   render() {
     return (
       <div>
-        <div className="card">
+        <div className="card" id="projects">
           <div className="row">
             <div className="card-body col-sm-12">
               <h4 className="card-title">Projects</h4>

@@ -5,7 +5,7 @@ export default class card extends Component {
   render() {
     return (
       <div>
-        <div className="card">
+        <div className="card" id="education">
           <div className="row">
             <div className="card-body col-sm-12">
               <h4 className="card-title">Education</h4>

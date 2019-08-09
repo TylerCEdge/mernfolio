@@ -4,7 +4,7 @@ export default class contact extends Component {
     render() {
         return (
             <div>
-                <div className="card">
+                <div className="card" id="contact">
           <div className="row">
             <div className="card-body col-sm-12">
               <h4 className="card-title">Contact Me</h4>

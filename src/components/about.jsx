@@ -7,19 +7,19 @@ export default class about extends Component {
       <div>
         <div className="card" id="about">
           <div className="row">
-            <div className="card-body col-sm-12">
+            <div className="card-body col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h4 className="card-title">About Me</h4>
             </div>
           </div>
           <div className="row">
             <img
-              className="profile col-sm-12 mx-auto"
+              className="profile img-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12 mx-auto"
               src={require("../images/tyler.jpg")}
               alt="Tyler Edge"
             />
           </div>
           <div className="row">
-            <div className="card-body col-sm-12">
+            <div className="card-body col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h5 className="card-title">Tyler Christopher Edge</h5>
               <p className="card-text">Hey everyone my name is Tyler Christopher Edge. I was born and raised in Clover, South Carolina. Go
                 Tigers! Currently I do not have a job in the tech field but I used to be a Tech and Mobile Sales
@@ -58,7 +58,7 @@ export default class about extends Component {
             <a href="https://github.com/TylerCEdge" target="blank"><img src={require("../images/github.png")}
                             alt="GitHub" className="src contact" /></a>
             <a href="https://stackexchange.com/users/15047538/tyler-edge" target="blank"><img src={require("../images/overflow.png")}
-                            alt="Stack Overflow" class="src contact" /></a>
+                            alt="Stack Overflow" className="src contact" /></a>
             <a href="https://www.linkedin.com/in/tyler-edge-29530b178/" target="blank"><img src={require("../images/linkedin.png")}
                             alt="LinkedIn" className="src contact" /></a>
             </div>

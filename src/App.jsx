@@ -5,7 +5,6 @@ import About from './components/about'
 import Projects from './components/projects'
 import Education from './components/education'
 import Contact from './components/contact'
-import Carousel from './components/carousel'
 
 export default class App extends Component {
 

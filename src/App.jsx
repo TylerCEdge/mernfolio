@@ -17,9 +17,9 @@ export default class App extends Component {
         <div className="container first">
           <Jumbotron />
         </div>
-        <div className="container">
+        {/* <div className="container">
           <Carousel />
-        </div>
+        </div> */}
         <div className="container">
           <About />
         </div>

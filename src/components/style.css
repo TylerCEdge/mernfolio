@@ -82,7 +82,7 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
     .profile {
-        max-width: 50%;
+        max-width: 20%;
         
     }
 
@@ -98,7 +98,7 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
     .profile {
-        max-width: 50%;
+        max-width: 20%;
         
     }
 
@@ -113,7 +113,7 @@ and (max-device-width : 1024px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
     .profile {
-        max-width: 50%;
+        max-width: 20%;
         
     }
 

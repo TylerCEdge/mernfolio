@@ -18,7 +18,7 @@ export default class card extends Component {
       <div>
         <div className="card" id="projects">
           <div className="row">
-            <div className="card-body col-sm-12">
+            <div className="card-body col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h4 className="card-title">Projects</h4>
               <Wrapper>
             {this.state.cards.map(card => (

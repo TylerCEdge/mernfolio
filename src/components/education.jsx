@@ -7,7 +7,7 @@ export default class card extends Component {
       <div>
         <div className="card" id="education">
           <div className="row">
-            <div className="card-body col-sm-12">
+            <div className="card-body col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h4 className="card-title">Education</h4>
               <p>UNCC Bootcamp - Full Stack Web Developer - Jan 2019 to Jul 2019 (Certificate completed: July 2019)</p>
               <p>York Technical College - Clemson University Bridge Program for Computer Science - 2012 to 2015</p>

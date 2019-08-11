@@ -36,6 +36,11 @@ export default class navbar extends Component {
                   Contact Info
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" target="blank" href="https://docs.google.com/document/d/11_OQHxzBu_dA8fwsj9u3ArT3i8vHnOdWgEry89BZ6sE/edit?usp=sharing">
+                  Resume
+                </a>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"

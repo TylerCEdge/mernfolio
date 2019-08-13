@@ -97,7 +97,7 @@ export default class about extends Component {
                 <img
                   src={require("../images/resume.png")}
                   alt="Resume"
-                  className="src contact"
+                  className="src contact" 
                 />
               </a>
             </div>

@@ -29,16 +29,16 @@
 	},
 	{
 		"id": 5,
-		"name": "Find A Friend App",
-		"image": "friendfinder.png",
-		"url": "https://friend-o-finder.herokuapp.com/",
-		"summary": "Find A Friend is an app that utilizes html and api routing to render a friend for you based on a short questionaire. This is done by a pre populated json document that can also be viewed by clicking the api link on the main page. To use this app you must enter a name and an image. Answering the questionaire will upload this data to the json document building upon the pre-existing database."
+		"name": "Apex Tracker App",
+		"image": "apextracker.png",
+		"url": "https://apextrackerv1.herokuapp.com/",
+		"summary": "Heroku hosted app that renders the stats of an Apex Legend player. User specifies platform and gamer id to search. Renders selected data from tracker.gg api with the help of Vue.js and Lifecycle hooks. This project also uses Express.js, Node.js and concurrently to link the front and back end. I had a lot of fun learning this one!"
 	},
 	{
 		"id": 6,
-		"name": "Tasty Burger",
-		"image": "burger.png",
-		"url": "https://eatdaburgerzzz.herokuapp.com/",
-		"summary": "Tasty Burger showcases my knowledge of SQL. The database is rendered via seeds/schema to an sql database. Users are able to compile their own burger and then it is saved to the list of uneaten burgers. Clicking the button to eat the burger will move said burger to the eaten field as well as modify the sql database to show it has been eaten."
+		"name": "Gatsby Practice",
+		"image": "gatsbypractice.png",
+		"url": "https://modest-archimedes-36f35e.netlify.com/",
+		"summary": "Netlify deployed app using a contentful CMS to render blog posts. Also uses a number of plugins available from Gatsby including the gatsby-plugin-scss and a few image plugins. Learned about SEO in the process. Also learned to use GraphQL and how to update graphql to render playground instead of the default interface."
 	}
 ]

@@ -21,6 +21,47 @@ export default class about extends Component {
           <div className="row">
             <div className="card-body col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h5 className="card-title">Tyler Christopher Edge</h5>
+              <h3>Tech Background</h3>
+              <p className="card-text">
+                I have a strong passion for tech. I have played around with
+                computers since I was old enough to walk. I am into coding,
+                penetration testing, ethical hacking, and building rigs. I
+                recently completed a full stack boot camp @ UNCC and I've now
+                begun coding projects of my own. I made a choice to switch to
+                this career path for a sense of purpose rather than just
+                punching a clock. I consider what I do to be an art form that
+                allows me to harness my creativity and passion to augment others
+                day to day lives in a positive manner. My projects that have
+                been uploaded to GitHub post boot camp tend to gravitate towards
+                gaming but as my skills grow I would love to create platforms
+                for the health care field as well as apps/technology to assist
+                the disabled. I have also recently enrolled in a Penetration
+                Testing and Ethical Hacking course via Cybrary. Feel free to
+                message me if you would like to know more!
+              </p>
+
+              <p className="card-text">
+                <ul>
+                  <h5>Specialties include:</h5>
+                  <li><b>Application architecture</b></li>
+                  <li><b>Javascript</b> - (native, ReactJS, jQuery, Vue, Gatsby, Angular etc)</li>
+                  <li>
+                    <b>CSS3</b> - (native and using technology SASS, Twitter Bootstrap)
+                  </li>
+                  <li><b>Server Side</b> - HTML, NodeJS</li>
+                  <li>
+                    <b>Database architecture and design</b> (MySQL, MS SQL, MongoDB, GraphQL, CMS)
+                  </li>
+                  <li><b>Tools</b> - GIT, Postman, Parrot Sec OS, Kali Linux</li>
+                  <li>
+                    <b>Kali/Parrot Related Tools</b> - Airgeddon, Metasploit, Armitage,
+                    Maltego, BurpSuite, SET, Beef, Nmap, WPscan, Skipfish,
+                    Nikto.
+                  </li>
+                </ul>
+              </p>
+
+              <h3>Background Information</h3>
               <p className="card-text">
                 Hey everyone my name is Tyler Christopher Edge. I was born and
                 raised in Clover, South Carolina. Go Tigers! Currently I do not
@@ -97,7 +138,7 @@ export default class about extends Component {
                 <img
                   src={require("../images/resume.png")}
                   alt="Resume"
-                  className="src contact" 
+                  className="src contact"
                 />
               </a>
             </div>

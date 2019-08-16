@@ -44,15 +44,15 @@ export default class about extends Component {
                 <ul>
                   <h5>Specialties include:</h5>
                   <li><b>Application architecture</b></li>
-                  <li><b>Javascript</b> - (native, ReactJS, jQuery, Vue, Gatsby, Angular etc)</li>
+                  <li><b>Javascript</b> - (native, ReactJS, jQuery, Vue, Gatsby, Angular etc).</li>
                   <li>
-                    <b>CSS3</b> - (native and using technology SASS, Twitter Bootstrap)
+                    <b>CSS3</b> - (native and using technology SASS, Twitter Bootstrap).
                   </li>
                   <li><b>Server Side</b> - HTML, NodeJS</li>
                   <li>
-                    <b>Database architecture and design</b> (MySQL, MS SQL, MongoDB, GraphQL, CMS)
+                    <b>Database architecture and design</b> (MySQL, MS SQL, MongoDB, GraphQL, CMS).
                   </li>
-                  <li><b>Tools</b> - GIT, Postman, Parrot Sec OS, Kali Linux</li>
+                  <li><b>Tools</b> - GIT, Postman, Parrot Sec OS, Kali Linux.</li>
                   <li>
                     <b>Kali/Parrot Related Tools</b> - Airgeddon, Metasploit, Armitage,
                     Maltego, BurpSuite, SET, Beef, Nmap, WPscan, Skipfish,

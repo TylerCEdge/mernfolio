@@ -40,9 +40,9 @@ export default class about extends Component {
                 message me if you would like to know more!
               </p>
 
-              <p className="card-text">
+
+              <div className="card-text">
                 <ul>
-                  <h5>Specialties include:</h5>
                   <li><b>Application architecture</b></li>
                   <li><b>Javascript</b> - (native, ReactJS, jQuery, Vue, Gatsby, Angular etc).</li>
                   <li>
@@ -59,7 +59,7 @@ export default class about extends Component {
                     Nikto.
                   </li>
                 </ul>
-              </p>
+              </div>
 
               <h3>Background Information</h3>
               <p className="card-text">
